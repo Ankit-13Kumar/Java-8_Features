@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb939ae2-d86a-4543-b48c-eab4ad6ee95c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/StreamAPI/StreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Src/StreamAPI/StreamMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Functional_Interface/AddNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Functional_Interface/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Functional_Interface/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Functional_Interface/MyInterfaceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Functional_Interface/MyWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Functional_Interface/StringLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Functional_Interface/ThreadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/GenericClass/Box.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/GenericClass/Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/GenericClass/GenericClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Method_Reference/Constructer/ConsMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Method_Reference/Constructer/ProviderInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Method_Reference/Constructer/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Method_Reference/ReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Method_Reference/StreamMain1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Method_Reference/Stuff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/Method_Reference/WorkInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/OptionalClass/OptionalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/StreamAPI/Methods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/StreamAPI/StreamMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8/StreamAPI/StreamObject.class" beforeDir="false" />
-    </list>
+    <list default="true" id="bb939ae2-d86a-4543-b48c-eab4ad6ee95c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2gSekKHskiITYcJtKRPUY5jmbrl" />
   <component name="ProjectViewState">
