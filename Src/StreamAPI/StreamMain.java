@@ -48,7 +48,6 @@ public class StreamMain {
         System.out.println("Greater than 30:" + list30);
 
 
-        package org.example;
 
 
 
@@ -69,41 +68,41 @@ public class StreamMain {
        value.stream().map(x->x*x).forEach(y->System.out.println(value));
 
 //        //2 - filter() ->The filter method is used to select elements as per the Predicate passed as an argument.
-       ArrayList<String> value=new ArrayList<String>();
-       value.add("12"); value.add("18"); value.add("12"); value.add("8");
-       List<String> result=value.stream().filter(s->s.startsWith("1")).collect(Collectors.toList());
+       ArrayList<String> value1=new ArrayList<String>();
+       value1.add("12"); value1.add("18"); value1.add("12"); value1.add("8");
+       List<String> result=value1.stream().filter(s->s.startsWith("1")).collect(Collectors.toList());
           System.out.println(result);
 
 //        //3 - map() ->The map method is used to return a stream consisting of the results of applying the given function to the elements of this stream.
-       ArrayList<Integer> value=new ArrayList<Integer>();
-      value.add(12); value.add(18); value.add(12); value.add(8);
-       List<Integer> result= value.stream().map(x->x*x).collect(Collectors.toList());
-       System.out.println("result:"+ result);
+       ArrayList<Integer> value2=new ArrayList<Integer>();
+      value2.add(12); value2.add(18); value2.add(12); value2.add(8);
+       List<Integer> result2= value2.stream().map(x->x*x).collect(Collectors.toList());
+       System.out.println("result:"+ result2);
 
 
 //        //4 - collect() - The collect method is used to return the result of the intermediate operations performed on the stream.
-       ArrayList<Integer> value=new ArrayList<Integer>();
-       value.add(12);
-       value.add(10);
-       Set<Integer> result=value.stream().map(x->x*x).collect(Collectors.toSet());
-       System.out.println(result);
+       ArrayList<Integer> value3=new ArrayList<Integer>();
+       value3.add(12);
+       value3.add(10);
+       Set<Integer> result3=value3.stream().map(x->x*x).collect(Collectors.toSet());
+       System.out.println(result3);
 
 //        //5 sorted() -The sorted method is used to sort the stream.
-       ArrayList<Integer> value=new ArrayList<Integer>();
-       value.add(121);
-       value.add(11);
-       value.add(1231);
-       value.add(232);
-       List<Integer> result=value.stream().sorted().collect(Collectors.toList());
-       System.out.println(result);
+       ArrayList<Integer> value4=new ArrayList<Integer>();
+       value4.add(121);
+       value4.add(11);
+       value4.add(1231);
+       value4.add(232);
+       List<Integer> result4=value4.stream().sorted().collect(Collectors.toList());
+       System.out.println(result4);
 
        //6 reduce() - The reduce method is used to reduce the elements of a stream to a single value. The reduce method takes a BinaryOperator as a parameter.
-       ArrayList<Integer> value=new ArrayList<Integer>();
-       value.add(12);
-       value.add(121);
-       value.add(1);
-       value.add(10);
-       int even=value.stream().filter(x->x%2==0).reduce(0,(ans,i)-> ans+i);
+       ArrayList<Integer> value5=new ArrayList<Integer>();
+       value5.add(12);
+       value5.add(121);
+       value5.add(1);
+       value5.add(10);
+       int even=value5.stream().filter(x->x%2==0).reduce(0,(ans,i)-> ans+i);
        System.out.println("result:"+ even);
 
         System.out.println("result:"+ value);
